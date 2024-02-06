@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #fff; */
+}
+
+body{
+    /* height: 5000px; */
+    background-image: url(/images/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav {
+    display: block;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 10px 13px 8px; */
+}
+
+#nav1 {
+    background-color: rgb(241, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: azure;
+    font-weight: bold; */
+}
+
+#nav1P {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: azure;
+    font-weight: bold;
+    margin: 0px auto;
+}
+
+
+
+#logo {
+    margin: auto;
+    height: 72px;
+    background-color: rgb(255, 244, 244);
+}
+
+#nav2UL {
+    /* position:absolute; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(255, 244, 244);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    color: black;
+    width: 100%;
+}
+
+.nav2LI {
+    display: inline-block;
+    background-color: rgb(255, 244, 244);
+    margin: auto auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#currentPage {
+    border: 2px solid black;
+    padding: 6px 9px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    color: rgb(255, 215, 0);
+}
+
+#currentPage:hover {
+    /* color: blue; */
+    color: rgb(255, 215, 0);
+}
+
+.navTab {
+    display: inline-block;
+    background-color: rgb(255, 244, 244);
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#signup .navTab {
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: green;
+    color: white;
+    width: 161px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#sign:hover {
+    /* width: 111px; */
+    background-color: rgb(6, 66, 6);
+}
+
+/* #login{
+    width: 111px;
+} */
+
+.navTab:hover {
+    color: blue;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#sign:hover {
+    cursor: pointer;
+}
+
+#login:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    padding: 20px 60px;
+    background-color: rgb(251 205 49) !important;
+}
+
+.modal {
+    background-color: rgba(255, 255, 255, .6);
+}
+
+
+
+
+
+#main{
+    /* height: 600px; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    color: black;
+}
+
+#about {
+    /* background-color: rgb(219 255 177); */
+    background-color: rgb(219, 255, 177, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:60%;
+}
+
+h3 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    font-size: larger;
+    color: #555;
+}
+
+
+
+#footer {
+    /* height: 260px; */
+    width: 100%;
+    margin-top: 111px;
+    color: white;
+    background-color: rgb(12 12 12);
+    border-top: 2px solid rgb(168, 168, 168);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+.pFooter {
+    background-color: rgb(12 12 12);
+    text-align: center;
+}
+
+.footerContent {
+    margin: auto;
+    width: 30%;
+    background-color: rgb(12 12 12);
+    font-weight: bold;
+    font-size: 19px;
+    /* padding-bottom: 50px; */
+}
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+}
+
+.footerHead {
+    font-weight: bold;
+    font-size: 26px;
+    color: #00ceff;
+}
+
+#footerMail {
+    height: 40px;
+    width: 411px;
+    margin-top: 41px;
+    padding-left: 11px;
+    border: none;
+    border-radius: 5px;
+}
+
+#footerBtn {
+    height: 40px;
+    width: 411px;
+    margin-top: 11px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+}
+
+#footerBtn:hover {
+    cursor: pointer;
+}
+
+#footerBtn:active {
+    background-color: rgb(187, 187, 26);
+}
+
+#footerLogo {
+    height: 88px;
+    width: 288px;
+    filter: brightness(0) invert(1);
+}
+#footerLogo:hover{
+    cursor: pointer;
+}
